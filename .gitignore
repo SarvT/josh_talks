@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+myenv/
+venv*
+env*
+
+# Django-specific
+*.log
+*.pot
+*.egg-info/
+media/  # If you don't want to track user-uploaded media
+static/ # If you collect static files into a single directory
+
+# Database files (if you're using SQLite locally)
+*.sqlite3
+db.sqlite3
+
+# OS or Editor specific files
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+*.swo
+*.idea/
